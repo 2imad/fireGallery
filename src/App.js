@@ -1,10 +1,14 @@
-import React from 'react';
-import Title from './comps/Title';
+import React from "react";
+import Title from "./comps/Title";
+import UploadForm from "./comps/UploadForm";
+import ImageGrid from "./comps/imageGrid";
 
 function App() {
   return (
     <div className="App">
-      <Title/>
+      <Title />
+      <UploadForm />
+      <ImageGrid />
     </div>
   );
 }
